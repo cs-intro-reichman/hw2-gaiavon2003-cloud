@@ -9,5 +9,23 @@ Great work boaz!
 public class Cheers {
         public static void main(String[] args) {
 	    // Replace this comment with your code
+            String name = args [0];
+            int time = (Integer.parseInt(args[1]));
+            int letter = name.length();
+            for ( int i= 0; i< letter; i++) {
+                char bigletter = Character.toUpperCase(name.charAt(i));
+                if (bigletter == 'A'|| bigletter == 'E'|| bigletter == 'F'|| bigletter == 'H'|| bigletter == 'I'|| bigletter == 'L'|| bigletter == 'M'|| bigletter == 'N'|| bigletter == 'O'|| bigletter == 'R'|| bigletter == 'S'|| bigletter == 'X'){
+                   System.out.println("Give ma an " +bigletter + ": " + bigletter);     
+                } else {System.out.println("Give ma a " +bigletter + ": " + bigletter);
+
+                }
+
+            } System.out.println("What dose that spell?");
+            while (time > 0) {
+                System.out.println(name.toUpperCase()+ " ! ! !");
+                time = time -1;
+            }
+
+               
         }
 }
