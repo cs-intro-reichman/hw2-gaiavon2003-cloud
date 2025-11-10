@@ -6,9 +6,18 @@ public class TimeCalc {
         int minuutesToAdd = Integer.parseInt(args[1]);
 
         int Totalminutes = (hours * 60 + minuutes + minuutesToAdd);
-        int newhours = (Totalminutes / 60)%24;
-        int newMinutes = Totalminutes %60;
-        System.out.println(newhours + ":" + newMinutes);
+        int Totalhours = Totalminutes / 60 ; 
+        int newhours = Totalhours % 24 ; 
+        int newminutes = Totalminutes - (Totalhours * 60);
+        if ( newhours < 10){
+            System.out.print("0");
+        }
+        System.out.print(newhours);
+        System.out.print( " : ");
+        if (newminutes < 10 ) {
+            System.out.print ("0");
+        }
+        System.out.print( newminutes);
 
 
     }

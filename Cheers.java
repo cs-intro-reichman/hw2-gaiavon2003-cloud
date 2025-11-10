@@ -22,7 +22,7 @@ public class Cheers {
 
             } System.out.println("What dose that spell?");
             while (time > 0) {
-                System.out.println(name.toUpperCase()+ " ! ! !");
+                System.out.println(name.toUpperCase()+ "!!!");
                 time = time -1;
             }
 
