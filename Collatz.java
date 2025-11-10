@@ -25,7 +25,7 @@ public class Collatz {
 				}
 			} while (currentNumber != 1);
 			if (mode.equals("v")) {
-				System.err.print("(" + steps + ")");
+				System.out.print("(" + steps + ")");
 				System.out.println();
 			}
 
