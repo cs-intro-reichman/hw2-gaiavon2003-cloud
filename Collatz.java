@@ -30,6 +30,15 @@ public class Collatz {
 			}
 
 		}
-		System.out.println("Every one of the first " + n + " hailstone sequences reached 1.");
+		System.out.println("Every one of the first " + n + " hailstone sequences reached 1");
+
+		// their
+		// 1 4 2 1 (4)
+		// Every one of the first 1 hailstone sequences reached 1
+		// our
+		// 1 4 2 1 (4)
+		// Every one of the first 1 hailstone sequences reached 1.
+		//
+
 	}
 }
