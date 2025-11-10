@@ -13,7 +13,7 @@ public class TimeCalc {
             System.out.print("0");
         }
         System.out.print(newhours);
-        System.out.print( " : ");
+        System.out.print( ":");
         if (newminutes < 10 ) {
             System.out.print ("0");
         }
